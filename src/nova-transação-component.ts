@@ -31,7 +31,7 @@ const elementoFormulario = document.querySelector(
       return;
     }
   
-    elementoSaldo.textContent = saldo.toString();
+    elementoSaldo.textContent = formatarMoeda(saldo);
   
     const novaTransacao: Transacao = {
       tipoTransacao: tipoTransacao,
