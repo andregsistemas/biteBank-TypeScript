@@ -7,16 +7,14 @@
 * Sempre que a transação for do tipo TRANSFERÊNCIA ou PAGAMENTO DE BOLETO, o valor da transação deve ser subtraído do saldo da conta.
 * O saldo deve sempre ser atualizado na tela da aplicação a cada transação realizada.
 
-------------------------------------------------------------------
+---------------------------------------------
 
-* As informações da conte devewm ficar em um móduo específico "Conta"
+* As informações da conta devem ficar num módulo específico "Conta"
+- Saldo 
+- Data de Acesso 
+- Registro de Transações realizadas
+- Histórico de transações 
 
-- Saldo
-- Data de acesso
-- Registro de Transações
-- Histórico de Transações
-
-* Os componesntes
-
-- Nova transação: deve apenas coletar as informações do formulário da interdace e repassar os dados para o módulo Conta.
-- Saldo: Deve exibir as informações de data de acesso e do saldo para o usuário na interdace acessando esses dados através do módulo comtra
+* Os componentes
+  - Nova transação: deve apenas coletar as informações do form da interface e repassar os dados para o módulo Conta 
+  - Saldo: deve exibir as informações de data de acesso e do saldo para o usuário na interface acessando esses dados através do módulo Conta 
